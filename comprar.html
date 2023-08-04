@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Loja de Discos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fde9f7;
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #ff6b6b;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .disc-name {
+            color: #ff6b6b;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .disc-image {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .input-field {
+            margin-bottom: 10px;
+        }
+
+        .submit-button {
+            background-color: #ff93ad;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .submit-button:hover {
+            background-color: #ff6b8a;
+        }
+
+        .return-button {
+            background-color: #ff93ad;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .return-button:hover {
+            background-color: #ff6b8a;
+        }
+
+        .thanks-message {
+            font-size: 24px;
+            margin-top: 30px;
+        }
+
+        .store-location {
+            font-size: 18px;
+            margin-top: 30px;
+        }
+
+        .store-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #fde9f7;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .store-section h2 {
+            color: #ff6b6b;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .store-info {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .store-address {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .social-icons a {
+            color: #ff6b6b;
+            font-size: 24px;
+            margin-right: 15px;
+        }
+
+        .store-button {
+            background-color: #ff93ad;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .store-button:hover {
+            background-color: #ff6b8a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Minha Loja de Discos</h1>
+        <!-- Formulário para digitar o valor -->
+        <form>
+            <!-- Restante do formulário... -->
+        </form>
+        
+        <!-- Agradecimento após a compra -->
+        <p class="thanks-message" id="agradecimento"></p>
+
+
+    <!-- Botão "Voltar" -->
+    <button class="back-button" onclick="history.back()">Voltar</button>
+
+        <!-- Seção "Conheça a nossa loja" -->
+        <div class="store-section">
+            <h2>Conheca a nossa loja</h2>
+            <p class="store-info">Visite nossa loja fisica e encontre os melhores discos de vinil!</p>
+            <p class="store-address">Endereco: Garibaldi 1043, Porto Alegre, RS, Brazil</p>
+            <p class="store-info">Telefone:5133114551</p>
+            
+            <!-- Foto da loja -->
+            <img src="https://th.bing.com/th/id/OIP.8_6mO9gci4yjO67L2JHjSAHaFj?pid=ImgDet&rs=1" alt="Foto da loja" width="400" height="300">
+
+            <!-- Botão para ir à loja -->
+            <a href="https://www.bing.com/maps?&mepi=107~Local~Unknown~Entity_List_Card&ty=17&q=lojas%20de%20discos%20de%20disco&segment=Local&sei=0&cp=-30.030029~-51.215118&child=%26ty%3D18%26q%3DToca%2520do%2520Disco%26ss%3Dypid.YN7993x631347000%26segment%3DLocal%26ppois%3D-30.030029296875_-51.215118408203125_Toca%2520do%2520Disco_YN7993x631347000~%26cp%3D-30.030029~-51.215118%26EnableMapViewChange%3Dtrue&FORM=SNAPST" class="store-button">Ir para a Loja</a>
+            
+        </div>
+    </div>
+
+    <!-- Biblioteca Font Awesome para os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script>
+
+
+<div class="social-icons">
+                
+         
+             
+            </div>
+        // Função para voltar à página anterior
+        function voltar() {
+            history.back();
+        }
+    </script>
+</body>
+</html>
+
+
+<div class="container">
+
+    </div>
+
+    <!-- Mais conteúdo... -->
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Página Fofa</title>
+    <style>
+        /* Estilos fofos */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fde9f7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #like-button {
+            background-color: #ff6b6b;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        #like-button:hover {
+            background-color: #ff8f8f;
+        }
+
+        #like-count {
+            font-size: 18px;
+            color: #444;
+            margin-left: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        #kitty-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 5px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Conteúdo do site... -->
+
+        <!-- Botão de curtir com estilo de gatinho -->
+        <button id="like-button" onclick="like()">
+            <img id="kitty-icon" src="https://th.bing.com/th/id/R.ea99832bb0da96bcac8800020572eda3?rik=qo3uygiUEJ6X6Q&pid=ImgRaw&r=0">
+            Curtir
+        </button>
+
+        <!-- Contador de curtidas -->
+        <span id="like-count">0 curtidas</span>
+
+        <!-- Mais conteúdo... -->
+    </div>
+
+    <script>
+        let likes = 0;
+
+        function like() {
+            likes++;
+            document.getElementById("like-count").textContent = likes + (likes === 1 ? " curtida" : " curtidas");
+        }
+    </script>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Página Fofa</title>
+    <style>
+        /* Estilos fofos (mantidos da resposta anterior)... */
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+
+        <!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Loja</title>
+    <style>
+        /* Estilos anteriores (fofo e elegante)... */
+
+        /* Estilo para o ícone do Facebook */
+        .facebook-icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Loja</title>
+    <style>
+        /* Estilos anteriores (fofo e elegante)... */
+
+        /* Estilo para o ícone do Facebook */
+        .facebook-icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Conteúdo do site... -->
+
+        <!-- Link para o Facebook -->
+        <a href="https://pt-br.facebook.com/TocaDoDisco" target="_blank">
+
+            Siga-nos no Facebook
+        </a>
+
+        <!-- Mais conteúdo... -->
+    </div>
+</body>
+</html>
